@@ -1,0 +1,57 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar {
+  margin: 0 auto;
+  width: 1250px;
+}
+#navbar .logo {
+  display: flex;
+  justify-content: left;
+}
+#navbar .logo .logoIco {
+  margin-top: 11px;
+}
+#navbar div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#navbar div a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: black;
+}
+#navbar .logo h3 a {
+  color: red;
+}
+#navbar .logo h3 a span {
+  margin-left: -18px;
+}
+#navbar div h4 {
+  margin-left: 100px;
+}
+#navbar .searchBox input {
+  margin-left: 25px;
+  width: 170px;
+  border: none;
+  color: red;
+  border-bottom: 2px solid red;
+  outline: none;
+}
+::placeholder{
+    color: red;
+}
+#navbar .searchBox button {
+  border: none;
+  background: none;
+  margin-left: -24px;
+  color: red;
+}
+#navbar .logo  .searchBox  .signUp {
+  border: 1px solid red;
+  background: red;
+  color: white;
+  border-radius: 100px;
+  padding: 10px 25px;
+}
