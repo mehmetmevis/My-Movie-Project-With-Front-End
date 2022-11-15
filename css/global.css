@@ -1,9 +1,13 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
+.clear {
+  clear: both;
+}
 body {
+  background-color: #020d18;
   background-image: url(/images/background.png);
-  background-repeat: repeat;
+  background-repeat: repeat-x;
 }
 #navbar {
   position: fixed;
@@ -38,6 +42,9 @@ body {
 #navbar .logo h3 a span {
   margin-left: -13px;
 }
+#navbar .logo .page a:hover {
+  color: #fe0f20;
+}
 #navbar div h4 {
   margin-left: 90px;
 }
@@ -69,77 +76,296 @@ body {
   border-radius: 100px;
   padding: 12px 30px;
 }
-#navbar .moviesPreview {
+#navbar .logo .searchBox .signUp:hover {
+  box-shadow: 0px 0px 20px 0px #fe0f20;
+}
+#navbar .logo .searchBox .login:hover {
+  color: #fe0f20;
+}
+#firstMovies {
+  margin: 0 auto;
+  width: 1203px;
+}
+#firstMovies .moviesPreview {
   display: flex;
-  margin: 100px auto;
+  margin-top: 191px;
   justify-content: space-between;
   color: white;
 }
-#navbar .moviesPreview .moviesCategori {
+#firstMovies .moviesPreview .moviesCategori {
   color: white;
   display: block;
 }
-#navbar .moviesPreview .moviesCategori .moviesDate {
+#firstMovies .moviesPreview .moviesCategori .moviesDate {
   color: white;
   display: flex;
   list-style-type: none;
   margin-top: 30px;
   margin-left: -15px;
 }
-#navbar .moviesPreview .moviesCategori .moviesDate li {
+#firstMovies .moviesPreview .moviesCategori .moviesDate li {
   margin-right: 10px;
 }
-#navbar .moviesPreview .moviesCategori .moviesDate .date {
+#firstMovies .moviesPreview .moviesCategori .moviesDate .date {
   border: 1px solid #f4b01e;
   background: #f4b01e;
   color: white;
   border-radius: 3px;
-  padding: 1px 8px;
+  padding: 0px 8px;
 }
-#navbar .moviesPreview .moviesCategori .moviesDate .action {
+#firstMovies .moviesPreview .moviesCategori .moviesDate .action {
   border: 1px solid #37a3df;
   background: #37a3df;
   color: white;
   border-radius: 3px;
-  padding: 1px 5px;
+  padding: 0px 5px;
 }
-#navbar .moviesPreview .moviesCategori .moviesDate .adventure {
+#firstMovies .moviesPreview .moviesCategori .moviesDate .adventure {
   border: 1px solid #df5f37;
   background: #df5f37;
   color: white;
   border-radius: 3px;
-  padding: 1px 5px;
+  padding: 0px 5px;
 }
-#navbar .moviesPreview .moviesCategori h1 {
+#firstMovies .moviesPreview .moviesCategori {
+  margin-left: -5px;
+  margin-top: 22px;
+}
+#firstMovies .moviesPreview .moviesCategori h1 {
   font-size: 60px;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: -5px;
 }
-#navbar .moviesPreview .moviesCategori p {
+#firstMovies .moviesPreview .moviesCategori p {
   margin-left: 30px;
   width: 500px;
-  line-height: 1.5;
   margin-top: -28px;
+  line-height: 1.5;
   font-size: 14px;
   opacity: 0.7;
 }
-#navbar .moviesPreview .moviesCategori .movieButton {
+#firstMovies .moviesPreview .moviesCategori .movieButton {
   margin-top: 60px;
-  margin-left: -190px;
+  margin-left: 20px;
 }
-#navbar .moviesPreview .moviesCategori a span {
+#firstMovies .moviesPreview .moviesCategori .movieButton a {
+  color: white;
+  text-decoration: none;
+}
+#firstMovies .moviesPreview .moviesCategori .movieButton .addlist {
+  margin-left: 22px;
+}
+#firstMovies .moviesPreview .moviesCategori a span {
+  border: 1px solid #000;
+  background: #000;
+  padding: 13px 20px;
+  border-radius: 100px;
+  font-size: 12px;
+  box-shadow: 0px 3px 80px 0px #000;
+}
+#firstMovies .moviesPreview .moviesCategori a span:hover {
   border: 1px solid #fe0f20;
   background: #fe0f20;
   padding: 13px 20px;
   border-radius: 100px;
   font-size: 12px;
-  box-shadow: 0px 3px 80px 0px #fe0f20;
+  box-shadow: 0px 0px 20px 1px #fe0f20;
 }
-#navbar .moviesPreview .moviesPoster {
+#firstMovies .moviesPreview .moviesPoster {
   margin-top: -58px;
   margin-right: 135px;
 }
-#serials {
-  background-image: url(/images/background.png);
-  background-repeat: repeat-x;
+#moviesList {
+  margin: 0 auto;
+  width: 1600px;
+  display: block;
+  margin-top: 34px;
+}
+#moviesList h3 {
+  font-size: 15px;
+  font-weight: lighter;
+  margin-left: 215px;
+  color: white;
+  opacity: 0.7;
+}
+#moviesList .movieImage {
+  margin-top: 24px;
+  margin-left: 13px;
+  display: flex;
+  border-radius: 100%;
+  background-image: url(/images/background2.png);
+  box-shadow: 0px -50px 200px 10px #020d18;
+  background-color: #020d18;
+}
+#moviesList .movieImage .backImage {
+  margin-top: 35px;
+}
+#moviesList .movieImage .frontImage {
+  display: flex;
+  justify-content: space-between;
+}
+#moviesList .movieImage .frontImage a {
+  margin-right: 16px;
+}
+#moviesList .movieImage .arrow {
+  margin-top: 90px;
+  color: #565656;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+#moviesList .movieImage .arrow i {
+  font-size: 22px;
+}
+#backPhoto {
+  background-image: url(/images/background3.png);
+  height: 555px;
+}
+#moviePreview {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  margin-top: 20px;
+}
+#moviePreview .movieImg {
+  margin-top: 65px;
+  margin-left: 20px;
+}
+#moviePreview .moviesCategori {
+  margin-top: 100px;
+  margin-left: 38px;
+}
+#moviePreview .moviesCategori .moviesDate {
+  display: flex;
+}
+#moviePreview .moviesCategori p {
+  color: white;
+  line-height: 1.5;
+  font-size: 15px;
+  opacity: 0.7;
+  text-align: right;
+  letter-spacing: 0.1;
+}
+#moviePreview .moviesCategori ul {
+  margin-top: 15px;
+  margin-left: 170px;
+}
+#moviePreview .moviesCategori h1 {
+  margin-left: 55px;
+}
+#moviePreview .moviesCategori .movieButton {
+  margin-top: 60px;
+  margin-left: 160px;
+}
+#moviesPage {
+  margin: 0 auto;
+  width: 1200px;
+}
+#moviesPage .ads {
+  margin: 0 auto;
+  width: 1000px;
+  margin-top: 50px;
+}
+#moviesPage .choiceHeader h3 {
+  color: #b0b0b0;
+  font-size: 14px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+#moviesPage .choiceHeader .moviesCategory {
+  margin: 0 auto;
+  width: 1100px;
+}
+#moviesPage .choiceHeader .moviesCategory .arrow {
+  text-decoration: none;
+  color: #484a4c;
+}
+#moviesPage .choiceHeader .moviesCategory .movieChoice {
+  font-size: 12px;
+  border: 1px solid #15202b;
+  background-color: #15202b;
+  border-radius: 15px;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+}
+#moviesPage .choiceHeader .moviesCategory .movieChoice:hover {
+  border-color: #fe0f20;
+  background-color: #fe0f20;
+}
+#moviesPage .movies {
+  margin-top: 55px;
+  display: flex;
+}
+#moviesPage .movies .moviesPhoto {
+  display: block;
+  margin-right: 15px;
+}
+#moviesPage .movies .moviesPhoto a {
+  text-decoration: none;
+  color: white;
+}
+#moviesPage .movies .moviesPhoto .yearLike span{
+  font-size: 13px;
+  color: white;
+  opacity: 0.5;
+}
+#moviesPage .movies .moviesPhoto .yearLike a{
+  margin-top: 21px;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+#moviesPage .movies .moviesPhoto .yearLike a i{
+  font-size: 10px;
+}
+#moviesPage .movies .heart {
+  font-size: 9px;
+  margin-left: 80px;
+  color: #4c4c4c;
+  opacity: 0.6;
+}
+#moviesPage .movies .yearLike .heart:hover {
+  opacity: 1;
+  color: #fe0f20;
+}
+#moviesPage .movies .eye {
+  font-size: 9px;
+  margin-left: 18px;
+  opacity: 0.6;
+  color: #4c4c4c;
+}
+#moviesPage .movies .yearLike .eye:hover {
+  color: #fe0f20;
+  opacity: 1;
+}
+#moviesPage .movies .star {
+  font-size: 9px;
+  margin-left: 18px;
+}
+#moviesPage .movies .star i{
+  color: #f4dd1e;
+  opacity: 0.8;
+}
+#moviesPage .loadMore {
+  margin: 0 auto;
+  width: 200px;
+  margin-top: 52px;
+}
+#moviesPage .loadMore a {
+  border: 1px solid #15202b;
+  background: #15202b;
+  padding: 13px 20px;
+  border-radius: 100px;
+  font-size: 12px;
+  box-shadow: 0px 3px 80px 0px #000;
+  text-decoration: none;
+  color: white;
+}
+#moviesPage .loadMore a:hover {
+  border: 1px solid #fe0f20;
+  background: #fe0f20;
+  padding: 13px 20px;
+  border-radius: 100px;
+  font-size: 12px;
+  box-shadow: 0px 0px 20px 1px #fe0f20;
 }
