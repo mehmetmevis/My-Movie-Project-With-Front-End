@@ -305,17 +305,17 @@ body {
   text-decoration: none;
   color: white;
 }
-#moviesPage .movies .moviesPhoto .yearLike span{
+#moviesPage .movies .moviesPhoto .yearLike span {
   font-size: 13px;
   color: white;
   opacity: 0.5;
 }
-#moviesPage .movies .moviesPhoto .yearLike a{
+#moviesPage .movies .moviesPhoto .yearLike a {
   margin-top: 21px;
   font-size: 12px;
   color: #b0b0b0;
 }
-#moviesPage .movies .moviesPhoto .yearLike a i{
+#moviesPage .movies .moviesPhoto .yearLike a i {
   font-size: 10px;
 }
 #moviesPage .movies .heart {
@@ -342,7 +342,7 @@ body {
   font-size: 9px;
   margin-left: 18px;
 }
-#moviesPage .movies .star i{
+#moviesPage .movies .star i {
   color: #f4dd1e;
   opacity: 0.8;
 }
@@ -368,4 +368,205 @@ body {
   border-radius: 100px;
   font-size: 12px;
   box-shadow: 0px 0px 20px 1px #fe0f20;
+}
+#previewPage {
+  background-image: url(/images/background4.png);
+  background-repeat: repeat-x;
+  height: 780px;
+}
+#previewPage .jurassicWorld {
+  margin: 0 auto;
+  width: 1200px;
+  margin-top: 60px;
+}
+#previewPage .jurassicWorld .moviesCategori {
+  position: absolute;
+  margin-top: 180px;
+}
+#previewPage .jurassicWorld .moviesCategori p {
+  color: white;
+  font-size: 14px;
+  width: 465px;
+  height: 100px;
+  opacity: 0.6;
+  line-height: 1.6;
+}
+#previewPage .jurassicWorld .moviesCategori .moviesDate {
+  display: flex;
+  margin-left: -40px;
+}
+#previewPage .jurassicWorld .moviesCategori .playButton {
+  margin-top: 1000px;
+}
+#backgroundImg {
+  background-image: url(/images/background5.png);
+  background-repeat: repeat-x;
+  height: 555px;
+}
+#backgroundImg .moviesPreview {
+  margin: 0 auto;
+  width: 1300px;
+  display: flex;
+}
+#backgroundImg .moviesPreview .moviesPoster {
+  margin-top: 65px;
+}
+#backgroundImg .moviesPreview .moviesCategori .moviesDate {
+  margin-top: 115px;
+  display: flex;
+  margin-left: 300px;
+}
+#backgroundImg .moviesPreview .moviesCategori h1 {
+  margin-left: 400px;
+  font-size: 36px;
+  margin-top: -0px;
+  color: white;
+}
+#backgroundImg .moviesPreview .moviesCategori p {
+  text-align: right;
+  margin-left: 95px;
+  color: white;
+  width: 450px;
+  height: 110px;
+  line-height: 1.5;
+  opacity: 0.7;
+  font-size: 14px;
+}
+#backgroundImg .moviesPreview .moviesCategori .movieButton {
+  margin-left: 220px;
+  margin-top: 35px;
+}
+#backgroundImg .moviesPreview .moviesCategori .movieButton .playButton {
+  margin-left: 20px;
+}
+#hunger {
+  margin: 0 auto;
+  width: 1200px;
+  margin-top: 50px;
+}
+#hunger .ads {
+  margin: 0 auto;
+  width: 1000px;
+}
+#hunger .pageSettings {
+  margin-top: 80px;
+  display: flex;
+}
+#hunger .pageSettings .page2 {
+  color: white;
+  width: 470px;
+  height: 370px;
+  margin-left: 38px;
+  margin-top: 35px;
+}
+#hunger .pageSettings .page2 h1 {
+  font-size: 36px;
+}
+#hunger .pageSettings .page2 p {
+  font-size: 14px;
+  line-height: 1.8;
+  opacity: 0.7;
+}
+#hunger .pageSettings .page2 .movieLink {
+  opacity: 1;
+}
+#hunger .pageSettings .page2 .movieLink i {
+  margin-left: 8px;
+  font-size: 12px;
+}
+#hunger .pageSettings .page3 {
+  border-left: 1px solid #4c4c4c;
+  padding-left: 30px;
+  margin-left: 40px;
+}
+#hunger .pageSettings .page3 a img {
+  margin-top: 25px;
+}
+#hunger .pageSettings .page3 .photo1 {
+  display: flex;
+}
+#hunger .pageSettings .page3 .photo1 span {
+  color: white;
+  font-size: 14.5px;
+  margin-top: 30px;
+  width: 190px;
+  height: 40px;
+  margin-left: 25px;
+}
+#hunger .pageSettings .page3 .photo1 span p {
+  opacity: 0.3;
+  font-size: 12px;
+  margin-top: 5px;
+}
+#lastFilm {
+  margin: 0 auto;
+  width: 1150px;
+  display: flex;
+  margin-top: 82px;
+}
+#lastFilm div {
+  margin-right: 28px;
+}
+#lastFilm div a {
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+}
+#lastFilm div .moviesTxt {
+  position: absolute;
+  border: 1px solid black;
+  background-color: black;
+  opacity: 0.7;
+  margin-top: 330px;
+  margin-left: -265px;
+  width: 224px;
+  height: 55px;
+  padding: 7px 20px;
+  text-align: left;
+  font-size: 12px;
+}
+.loadMore {
+  margin: 0 auto;
+  width: 300px;
+  margin-top: 55px;
+}
+#footer {
+  background-color: #000b15;
+  margin-top: 55px;
+  color: white;
+}
+#footer .footerSettings{
+  margin: 0 auto;
+  width: 1200px;
+}
+#footer .footerSettings .footerPage1{
+  color: #595959;
+  margin-top: 60px;
+}
+#footer .footerSettings .footerPage1 h1 a{ 
+  text-decoration: none;
+  color: #595959;
+  margin-top: 80px;
+}
+#footer .footerSettings .footerPage1 .logo a span{ 
+  position: absolute;
+  margin-top: 42px;
+  margin-left: 29px;
+  color: #595959;
+  font-size: 26px;
+}
+#footer .footerSettings .footerPage1 h1 a img{ 
+  color: #595959;
+  width: 35px;
+  height: 55px;
+  margin-top: 30px;
+}
+#footer .footerSettings .footerPage1 p{
+  width: 285px;
+  height: 45px;
+}
+#footer .footerSettings .footerPage1 .stars .stars1{
+  border: 1px solid #15202b;
+  padding: 10px;
+  border-radius: 100%;
 }
