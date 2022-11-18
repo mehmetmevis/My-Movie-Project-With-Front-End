@@ -606,6 +606,18 @@ body {
   color: #6d6d6d;
   margin: 5px;
 }
+#footer .footerSettings .footerPage1 .icons .facebook:hover{
+  color: #3b5998;
+}
+#footer .footerSettings .footerPage1 .icons .google:hover{
+  color: #DB4437;
+}
+#footer .footerSettings .footerPage1 .icons .twitter:hover{
+  color: #1D9BF0;
+}
+#footer .footerSettings .footerPage1 .icons .instagram:hover{
+  color: #E1306C;
+}
 #footer .footerSettings .footerPage2 {
   display: block;
   text-decoration: none;
@@ -631,4 +643,8 @@ body {
   color: white;
   opacity: 0.4;
   font-size: 14px;
+}
+#footer .footerSettings .footerPage2 ul a:hover {
+  color: #fe0f20;
+  opacity: 1;
 }
