@@ -535,38 +535,100 @@ body {
   margin-top: 55px;
   color: white;
 }
-#footer .footerSettings{
+#footer .footerSettings {
   margin: 0 auto;
-  width: 1200px;
+  width: 1150px;
+  display: flex;
 }
-#footer .footerSettings .footerPage1{
+#footer .footerSettings .footerPage1 {
   color: #595959;
-  margin-top: 60px;
+  margin-left: -20px;
 }
-#footer .footerSettings .footerPage1 h1 a{ 
+#footer .footerSettings .footerPage1 h1 a {
   text-decoration: none;
   color: #595959;
   margin-top: 80px;
 }
-#footer .footerSettings .footerPage1 .logo a span{ 
+#footer .footerSettings .footerPage1 .logo a span {
   position: absolute;
   margin-top: 42px;
   margin-left: 29px;
   color: #595959;
   font-size: 26px;
 }
-#footer .footerSettings .footerPage1 h1 a img{ 
+#footer .footerSettings .footerPage1 h1 a img {
   color: #595959;
   width: 35px;
   height: 55px;
   margin-top: 30px;
 }
-#footer .footerSettings .footerPage1 p{
+#footer .footerSettings .footerPage1 p {
   width: 285px;
   height: 45px;
+  color: #7e8081;
 }
-#footer .footerSettings .footerPage1 .stars .stars1{
-  border: 1px solid #15202b;
-  padding: 10px;
+#footer .footerSettings .footerPage1 .stars {
+  direction: rtl;
+  text-align: left;
+}
+#footer .footerSettings .footerPage1 .stars a {
+  text-decoration: none;
+  color: #595959;
+  border: 1px solid #212121;
+  margin: 5px;
+  padding: 5px;
   border-radius: 100%;
+  background-color: #212121;
+}
+#footer .footerSettings .footerPage1 .stars a i:hover {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .stars .stars1:hover ~ a {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .stars .stars2:hover ~ a {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .stars .stars3:hover ~ a {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .stars .stars4:hover ~ a {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .stars .stars5:hover ~ a {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .icons {
+  margin-top: 50px;
+}
+#footer .footerSettings .footerPage1 .icons a {
+  text-decoration: none;
+  color: #6d6d6d;
+  margin: 5px;
+}
+#footer .footerSettings .footerPage2 {
+  display: block;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+#footer .footerSettings .footerPage2 h1 {
+  color: #a8a9a9;
+  font-size: 14px;
+  margin-left: 40px;
+}
+#footer .footerSettings .footerPage2 .genre {
+  display: flex;
+  line-height: 2;
+  margin-top: -10px;
+}
+#footer .footerSettings .footerPage2 .genre .movieGenre2{
+  margin-left: 30px;
+}
+#footer .footerSettings .footerPage2 ul a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  opacity: 0.4;
+  font-size: 14px;
 }
