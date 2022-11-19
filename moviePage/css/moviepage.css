@@ -1,0 +1,320 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: #020d18;
+  background-image: url(/moviePage/images/background.png);
+  background-repeat: repeat-x;
+}
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+  width: 1203px;
+}
+#navbar .logo {
+  display: flex;
+  justify-content: left;
+}
+#navbar .logo .logoIco {
+  margin-top: 16px;
+}
+#navbar div {
+  margin-top: 22px;
+  margin-left: -10px;
+  display: flex;
+  justify-content: center;
+}
+#navbar div a {
+  font-size: 14px;
+  margin-left: 24px;
+  text-decoration: none;
+  color: white;
+}
+#navbar .logo h3 a {
+  color: #fe0f20;
+}
+#navbar .logo h3 a span {
+  margin-left: -13px;
+}
+#navbar .logo .page a:hover {
+  color: #fe0f20;
+}
+#navbar div h4 {
+  margin-left: 90px;
+}
+#navbar div h4 a {
+  margin-left: 36px;
+}
+#navbar .searchBox input {
+  margin-left: 25px;
+  width: 170px;
+  border: none;
+  color: #fe0f20;
+  border-bottom: 1px solid #fe0f20;
+  outline: none;
+  background: none;
+}
+::placeholder {
+  color: #fe0f20;
+}
+#navbar .searchBox button {
+  border: none;
+  background: none;
+  margin-left: -24px;
+  color: #fe0f20;
+}
+#navbar .logo .searchBox .signUp {
+  border: 1px solid #fe0f20;
+  background: #fe0f20;
+  color: white;
+  border-radius: 100px;
+  padding: 12px 30px;
+}
+#navbar .logo .searchBox .signUp:hover {
+  box-shadow: 0px 0px 20px 0px #fe0f20;
+}
+#navbar .logo .searchBox .login:hover {
+  color: #fe0f20;
+}
+#homePage1 {
+  margin: 0 auto;
+  width: 1200px;
+  margin-top: 240px;
+  display: flex;
+}
+#homePage1 .page2 {
+  color: white;
+  margin-left: 68px;
+  margin-top: -30px;
+}
+#homePage1 .page2 .header {
+  color: white;
+}
+#homePage1 .page2 p span {
+  color: #0ea4f1;
+}
+#homePage1 .page2 p {
+  width: 670px;
+  line-height: 1.5rem;
+  font-size: 14px;
+  opacity: 0.6;
+}
+#homePage1 .page2 .paragraph2 {
+  margin-top: 50px;
+}
+#homePage1 .page2 .header {
+  font-size: 36px;
+}
+#homePage1 .page3 .addList {
+  border: 1px solid #000;
+  background-color: #000;
+  padding: 15px 25px;
+  border-radius: 40px;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  align-items: center;
+}
+#homePage1 .page3 .addList:hover {
+  background-color: #f10e1f;
+  border-color: #f10e1f;
+  box-shadow: 0px 0px 20px 0px #fe0f20;
+}
+#homePage1 .page3 .addList i {
+  margin-right: 10px;
+  font-size: 15px;
+}
+#homePage1 .page3 .stars {
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 13px;
+}
+#homePage1 .page3 .stars a {
+  padding: 2px;
+  text-decoration: none;
+  color: #d9c41a;
+}
+#homePage1 .page3 .stars span {
+  margin-left: 5px;
+  color: #0ea4f1;
+  opacity: 0.8;
+}
+#homePage2 {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  margin-top: 75px;
+}
+#homePage2 .imgPage1 .img {
+  margin-top: 35px;
+  display: flex;
+}
+#homePage2 .imgPage1 .img p {
+  margin-left: 25px;
+  width: 230px;
+  color: #fff;
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 25px;
+}
+#homePage2 .imgPage1 .img .imgTxt a {
+  text-decoration: none;
+  color: #35373a;
+}
+#homePage2 .imgPage2 {
+  margin-top: 50px;
+  margin-left: 80px;
+}
+#lastFilm {
+  margin: 0 auto;
+  width: 1150px;
+  display: flex;
+  margin-top: 82px;
+}
+#lastFilm div {
+  margin-right: 28px;
+}
+#lastFilm div a {
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+}
+#lastFilm div .moviesTxt {
+  position: absolute;
+  border: 1px solid black;
+  background-color: black;
+  opacity: 0.7;
+  margin-top: 330px;
+  margin-left: -265px;
+  width: 224px;
+  height: 55px;
+  padding: 7px 20px;
+  text-align: left;
+  font-size: 12px;
+}
+.loadMore {
+  margin: 0 auto;
+  width: 300px;
+  margin-top: 55px;
+}
+#footer {
+  background-color: #000b15;
+  margin-top: 55px;
+  color: white;
+}
+#footer .footerSettings {
+  margin: 0 auto;
+  width: 1150px;
+  display: flex;
+}
+#footer .footerSettings .footerPage1 {
+  color: #595959;
+  margin-left: -20px;
+}
+#footer .footerSettings .footerPage1 h1 a {
+  text-decoration: none;
+  color: #595959;
+  margin-top: 80px;
+}
+#footer .footerSettings .footerPage1 .logo a span {
+  position: absolute;
+  margin-top: 42px;
+  margin-left: 29px;
+  color: #595959;
+  font-size: 26px;
+}
+#footer .footerSettings .footerPage1 h1 a img {
+  color: #595959;
+  width: 35px;
+  height: 55px;
+  margin-top: 30px;
+}
+#footer .footerSettings .footerPage1 p {
+  width: 285px;
+  height: 45px;
+  color: #7e8081;
+}
+#footer .footerSettings .footerPage1 .stars {
+  direction: rtl;
+  text-align: left;
+}
+#footer .footerSettings .footerPage1 .stars a {
+  text-decoration: none;
+  color: #595959;
+  border: 1px solid #212121;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 100%;
+  background-color: #212121;
+}
+#footer .footerSettings .footerPage1 .stars a i:hover {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .stars .stars1:hover ~ a {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .stars .stars2:hover ~ a {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .stars .stars3:hover ~ a {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .stars .stars4:hover ~ a {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .stars .stars5:hover ~ a {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .icons {
+  margin-top: 50px;
+}
+#footer .footerSettings .footerPage1 .icons a {
+  text-decoration: none;
+  color: #6d6d6d;
+  margin: 5px;
+}
+#footer .footerSettings .footerPage1 .icons .facebook:hover{
+  color: #3b5998;
+}
+#footer .footerSettings .footerPage1 .icons .google:hover{
+  color: #DB4437;
+}
+#footer .footerSettings .footerPage1 .icons .twitter:hover{
+  color: #1D9BF0;
+}
+#footer .footerSettings .footerPage1 .icons .instagram:hover{
+  color: #E1306C;
+}
+#footer .footerSettings .footerPage2 {
+  display: block;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+#footer .footerSettings .footerPage2 h1 {
+  color: #a8a9a9;
+  font-size: 14px;
+  margin-left: 40px;
+}
+#footer .footerSettings .footerPage2 .genre {
+  display: flex;
+  line-height: 2;
+  margin-top: -10px;
+}
+#footer .footerSettings .footerPage2 .genre .movieGenre2{
+  margin-left: 30px;
+}
+#footer .footerSettings .footerPage2 ul a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  opacity: 0.4;
+  font-size: 14px;
+}
+#footer .footerSettings .footerPage2 ul a:hover {
+  color: #fe0f20;
+  opacity: 1;
+}
