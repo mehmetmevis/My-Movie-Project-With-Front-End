@@ -1,0 +1,8 @@
+* {
+    font-family: "Open Sans", sans-serif;
+  }
+  body {
+    background-color: #020d18;
+    background-image: url(/mylistPage/images/background.png);
+    background-repeat: repeat-x;
+  }
