@@ -606,17 +606,17 @@ body {
   color: #6d6d6d;
   margin: 5px;
 }
-#footer .footerSettings .footerPage1 .icons .facebook:hover{
+#footer .footerSettings .footerPage1 .icons .facebook:hover {
   color: #3b5998;
 }
-#footer .footerSettings .footerPage1 .icons .google:hover{
-  color: #DB4437;
+#footer .footerSettings .footerPage1 .icons .google:hover {
+  color: #db4437;
 }
-#footer .footerSettings .footerPage1 .icons .twitter:hover{
-  color: #1D9BF0;
+#footer .footerSettings .footerPage1 .icons .twitter:hover {
+  color: #1d9bf0;
 }
-#footer .footerSettings .footerPage1 .icons .instagram:hover{
-  color: #E1306C;
+#footer .footerSettings .footerPage1 .icons .instagram:hover {
+  color: #e1306c;
 }
 #footer .footerSettings .footerPage2 {
   display: block;
@@ -634,7 +634,7 @@ body {
   line-height: 2;
   margin-top: -10px;
 }
-#footer .footerSettings .footerPage2 .genre .movieGenre2{
+#footer .footerSettings .footerPage2 .genre .movieGenre2 {
   margin-left: 30px;
 }
 #footer .footerSettings .footerPage2 ul a {
