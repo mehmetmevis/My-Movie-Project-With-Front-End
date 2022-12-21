@@ -1,0 +1,421 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.clear {
+  clear: both;
+}
+body {
+  background-color: #020d18;
+  background-image: url(/favoritesPage/images/background.png);
+  background-repeat: repeat-x;
+}
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+  width: 1203px;
+}
+#navbar .logo {
+  display: flex;
+  justify-content: left;
+}
+#navbar .logo .logoIco {
+  margin-top: 16px;
+}
+#navbar div {
+  margin-top: 22px;
+  margin-left: -10px;
+  display: flex;
+  justify-content: center;
+}
+#navbar div a {
+  font-size: 14px;
+  margin-left: 24px;
+  text-decoration: none;
+  color: white;
+}
+#navbar .logo h3 a {
+  color: #fe0f20;
+}
+#navbar .logo h3 a span {
+  margin-left: -13px;
+}
+#navbar .logo .page a:hover {
+  color: #fe0f20;
+}
+#navbar div h4 {
+  margin-left: 90px;
+}
+#navbar div h4 a {
+  margin-left: 36px;
+}
+#navbar .searchBox input {
+  margin-left: 25px;
+  width: 170px;
+  border: none;
+  color: #fe0f20;
+  border-bottom: 1px solid #fe0f20;
+  outline: none;
+  background: none;
+}
+#navbar .searchBox input::placeholder {
+  color: #fe0f20;
+}
+#navbar .searchBox button {
+  border: none;
+  background: none;
+  margin-left: -24px;
+  color: #fe0f20;
+}
+#navbar .logo .searchBox .signUp {
+  border: 1px solid #fe0f20;
+  background: #fe0f20;
+  color: white;
+  border-radius: 100px;
+  padding: 12px 30px;
+}
+#navbar .logo .searchBox .signUp:hover {
+  box-shadow: 0px 0px 20px 0px #fe0f20;
+}
+#navbar .logo .searchBox .login:hover {
+  color: #fe0f20;
+}
+#middleOnes {
+  margin: 0 auto;
+  width: 1200px;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+#middleOnes .middleLeft {
+  display: block;
+  justify-content: left;
+}
+#middleOnes .middleLeft {
+  display: block;
+  justify-content: right;
+}
+#middleOnes .middleLeft .leftFirst .searchBox input {
+  margin-left: 15px;
+  width: 170px;
+  border: none;
+  color: #fff;
+  border: 1px solid #fff;
+  background: none;
+  padding: 15px 20px;
+  font-weight: 600;
+}
+::placeholder {
+  color: #fff;
+}
+#middleOnes .middleLeft .leftFirst .searchBox button {
+  border: none;
+  background: none;
+  margin-left: -40px;
+  border-left: 1px solid #fff;
+  padding-left: 10px;
+  height: 25px;
+  color: #fff;
+  opacity: 0.8;
+}
+#middleOnes .middleLeft .leftFirst .searchBox button a {
+  text-decoration: none;
+  color: white;
+}
+#middleOnes .middleLeft .left2 {
+  color: #fff;
+}
+#middleOnes .middleLeft .left2 ul {
+  list-style-type: "—";
+  margin-top: 50px;
+}
+#middleOnes .middleLeft .left2 ul p {
+  font-size: 14px;
+  margin-left: -25px;
+  margin-bottom: 15px;
+  margin-top: -10px;
+}
+#middleOnes .middleLeft .left2 ul hr {
+  width: 215px;
+  margin-left: -25px;
+  margin-bottom: 35px;
+}
+#middleOnes .middleLeft .left2 ul li {
+  margin-top: 20px;
+  margin-left: -10px;
+}
+#middleOnes .middleLeft .left2 ul li a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 15px;
+  font-size: 14px;
+}
+#middleOnes .middleLeft .left2 ul li a:hover {
+  color: #c61d26;
+}
+#middleOnes .middleLeft .left3 {
+  margin-top: 30px;
+  margin-left: 5px;
+}
+#middleOnes .middleLeft .left3 hr {
+  width: 215px;
+  margin-left: 10px;
+}
+#middleOnes .middleLeft .left3 h1 {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #fff;
+  margin-left: 10px;
+}
+#middleOnes .middleLeft .left3 .leftImage {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 35px;
+}
+#middleOnes .middleLeft .left3 .leftImage img {
+  width: 54px;
+  height: 54px;
+}
+#middleOnes .middleLeft .left3 .leftImage .leftImg {
+  color: #fff;
+  width: 160px;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+#middleOnes .middleLeft .left3 .leftImage .leftImg .prg2 {
+  opacity: 0.5;
+  margin-top: -10px;
+}
+#middleOnes .middleRight {
+  display: block;
+}
+#middleOnes .middleRight .rightPhoto1 {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+#middleOnes .middleRight .rightPhoto1 .rightTxt {
+  margin-top: 40px;
+  margin-left: 30px;
+  color: #fff;
+}
+#middleOnes .middleRight .rightPhoto1 .rightTxt h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+#middleOnes .middleRight .rightPhoto1 .rightTxt p {
+  width: 460px;
+  line-height: 25px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+#middleOnes .middleRight .rightPhoto1 .rightTxt a {
+  text-decoration: none;
+  color: #fff;
+}
+#middleOnes .middleRight .rightPhoto1 .rightTxt a:hover {
+  color: #c61d26;
+}
+#middleOnes .middleRight .rightPhoto1 .rightTxt a i {
+  margin-left: 2px;
+  font-size: 12px;
+}
+#middleOnes .middleRight .rightPhoto2 {
+  display: flex;
+  margin-top: 110px;
+  margin-left: 100px;
+}
+#middleOnes .middleRight .rightPhoto2 .rightTxt {
+  margin-top: 40px;
+  margin-left: 30px;
+  color: #fff;
+}
+#middleOnes .middleRight .rightPhoto2 .rightTxt h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+#middleOnes .middleRight .rightPhoto2 .rightTxt p {
+  width: 460px;
+  line-height: 25px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+#middleOnes .middleRight .rightPhoto2 .rightTxt a {
+  text-decoration: none;
+  color: #fff;
+}
+#middleOnes .middleRight .rightPhoto2 .rightTxt a:hover {
+  color: #c61d26;
+}
+#middleOnes .middleRight .rightPhoto2 .rightTxt a i {
+  margin-left: 2px;
+  font-size: 12px;
+}
+#middleOnes .loadMore {
+  margin-left: 280px;
+  margin-top: 70px;
+}
+#middleOnes .loadMore a {
+  border: 1px solid #15202b;
+  background: #15202b;
+  padding: 13px 20px;
+  border-radius: 100px;
+  font-size: 12px;
+  box-shadow: 0px 3px 80px 0px #000;
+  text-decoration: none;
+  color: white;
+}
+#middleOnes .loadMore a:hover {
+  border: 1px solid #fe0f20;
+  background: #fe0f20;
+  padding: 13px 20px;
+  border-radius: 100px;
+  font-size: 12px;
+  box-shadow: 0px 0px 20px 1px #fe0f20;
+}
+#middleOnes .lastFilm {
+  display: flex;
+  margin-top: 82px;
+  margin-left: 50px;
+}
+#middleOnes .lastFilm div {
+  margin-right: 28px;
+}
+#middleOnes .lastFilm div a {
+  color: white;
+  text-decoration: none;
+}
+#middleOnes .lastFilm div .moviesTxt {
+  position: absolute;
+  border: 1px solid black;
+  background-color: black;
+  opacity: 0.7;
+  margin-top: 330px;
+  margin-left: -265px;
+  width: 224px;
+  height: 55px;
+  padding: 7px 20px;
+  text-align: left;
+  font-size: 12px;
+}
+#footer {
+  background-color: #000b15;
+  margin-top: 55px;
+  color: white;
+}
+#footer .footerSettings {
+  margin: 0 auto;
+  width: 1150px;
+  display: flex;
+}
+#footer .footerSettings .footerPage1 {
+  color: #595959;
+  margin-left: -20px;
+}
+#footer .footerSettings .footerPage1 h1 a {
+  text-decoration: none;
+  color: #595959;
+  margin-top: 80px;
+}
+#footer .footerSettings .footerPage1 .logo a span {
+  position: absolute;
+  margin-top: 42px;
+  margin-left: 29px;
+  color: #595959;
+  font-size: 26px;
+}
+#footer .footerSettings .footerPage1 h1 a img {
+  color: #595959;
+  width: 35px;
+  height: 55px;
+  margin-top: 30px;
+}
+#footer .footerSettings .footerPage1 p {
+  width: 285px;
+  height: 45px;
+  color: #7e8081;
+}
+#footer .footerSettings .footerPage1 .stars {
+  direction: rtl;
+  text-align: left;
+}
+#footer .footerSettings .footerPage1 .stars a {
+  text-decoration: none;
+  color: #595959;
+  border: 1px solid #212121;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 100%;
+  background-color: #212121;
+}
+#footer .footerSettings .footerPage1 .stars a i:hover {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .stars .stars1:hover ~ a {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .stars .stars2:hover ~ a {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .stars .stars3:hover ~ a {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .stars .stars4:hover ~ a {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .stars .stars5:hover ~ a {
+  color: #f1c40f;
+}
+#footer .footerSettings .footerPage1 .icons {
+  margin-top: 50px;
+}
+#footer .footerSettings .footerPage1 .icons a {
+  text-decoration: none;
+  color: #6d6d6d;
+  margin: 5px;
+}
+#footer .footerSettings .footerPage1 .icons .facebook:hover {
+  color: #3b5998;
+}
+#footer .footerSettings .footerPage1 .icons .google:hover {
+  color: #db4437;
+}
+#footer .footerSettings .footerPage1 .icons .twitter:hover {
+  color: #1d9bf0;
+}
+#footer .footerSettings .footerPage1 .icons .instagram:hover {
+  color: #e1306c;
+}
+#footer .footerSettings .footerPage2 {
+  display: block;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+#footer .footerSettings .footerPage2 h1 {
+  color: #a8a9a9;
+  font-size: 14px;
+  margin-left: 40px;
+}
+#footer .footerSettings .footerPage2 .genre {
+  display: flex;
+  line-height: 2;
+  margin-top: -10px;
+}
+#footer .footerSettings .footerPage2 .genre .movieGenre2 {
+  margin-left: 30px;
+}
+#footer .footerSettings .footerPage2 ul a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  opacity: 0.4;
+  font-size: 14px;
+}
+#footer .footerSettings .footerPage2 ul a:hover {
+  color: #fe0f20;
+  opacity: 1;
+}
